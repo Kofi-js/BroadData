@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
+import AnalyticPage from './Components/AnalyticPage'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <Navbar />
     <Hero />
+    <AnalyticPage/>
     </>
   )
 }
