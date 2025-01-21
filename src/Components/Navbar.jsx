@@ -20,10 +20,10 @@ function Navbar() {
         </ul>
 
         <div onClick={handleMenu} className="block md:hidden">
-            {!isOpen ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
+            {isOpen ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
         </div>
 
-        <div className= {!isOpen ? 'fixed top-[10px] left-0 h-full w-[60%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div className= {isOpen ? 'fixed top-[10px] left-0 h-full w-[60%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
         <h1 className="w-full text-3xl px-4 mt-6 font-bold text-[#00df9a]">BroadData</h1>
             <ul className='pt-4 uppercase'>
             <li className='p-4 border-b border-gray-600'>Home</li>

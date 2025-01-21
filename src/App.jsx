@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import AnalyticPage from './Components/AnalyticPage'
 import Newsletter from './Components/Newsletter'
 import Pricing from './Components/Pricing'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <AnalyticPage/>
     <Newsletter />
     <Pricing />
+    <Footer />
     </>
   )
 }
