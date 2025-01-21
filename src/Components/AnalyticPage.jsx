@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Ui/Button'
-import img from '../Assets/Images/Image.webp'
+import img from '../Assets/Images/laptop.jpg'
 
 
 function AnalyticPage() {
